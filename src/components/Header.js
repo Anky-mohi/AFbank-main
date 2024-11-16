@@ -43,7 +43,7 @@ function Header() {
               onMouseEnter={() => handleMouseEnter('pricing')} 
               onMouseLeave={() => handleMouseLeave('pricing')}
             >
-              <Link to="/pricing">Company&nbsp; <i className="fas fa-chevron-down"></i></Link>
+              <Link>Company&nbsp; <i className="fas fa-chevron-down"></i></Link>
               {dropdownOpen.pricing && (
                 <ul className="dropdown-menu">
                   <li onClick={handleLinkClick}><Link to="/pricing/standard">Standard Pricing</Link></li>
@@ -58,7 +58,7 @@ function Header() {
               onMouseEnter={() => handleMouseEnter('resources')} 
               onMouseLeave={() => handleMouseLeave('resources')}
             >
-              <Link to="/resources">Resources&nbsp; <i className="fas fa-chevron-down"></i></Link>
+              <Link>Resources&nbsp; <i className="fas fa-chevron-down"></i></Link>
               {dropdownOpen.resources && (
                 <ul className="dropdown-menu">
                   <li onClick={handleLinkClick}><Link to="/resources/blog">Blog</Link></li>

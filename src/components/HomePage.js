@@ -127,29 +127,27 @@ const HomePage = () => {
   </div>
   <br></br>
   <br></br>
-  {/* Column Headers - Displayed Once */}
-  <div className=" header-row">
-    <span className="listing-monetization">Monetization</span>
-    <span className="listing-niche">Niche</span>
-    <span className="listing-id">Listing</span>
-    <span className="listing-profit">Monthly Net Profit</span>
-    <span className="listing-price">Price</span>
-  </div>
 
-  {/* Dynamic Listings */}
-  <div className="listings-container">
-    {listings.map((listing, index) => (
-      <a href={listing.link} className="listing-row" key={index}>
-        <div className="listing-content">
-          <span className="listing-monetization">{listing.monetization}</span>
-          <span className="listing-niche">{listing.niche}</span>
-          <span className="listing-id">{listing.id}</span>
-          <span className="listing-profit">{listing.profit}</span>
-          <span className="listing-price">{listing.price}</span>
-        </div>
-      </a>
-    ))}
-  </div>
+<div className="header-row">
+  <span>Monetization</span>
+  <span>Niche</span>
+  <span>Listing</span>
+  <span>Monthly Net Profit</span>
+  <span>Price</span>
+</div>
+
+{/* Dynamic Listings */}
+<div className="listings-container">
+  {listings.map((listing, index) => (
+    <div className="listing-row" key={index}>
+      <span>{listing.monetization}</span>
+      <span>{listing.niche}</span>
+      <span>{listing.id}</span>
+      <span>{listing.profit}</span>
+      <span>{listing.price}</span>
+    </div>
+  ))}
+</div>
 
   <div className="view-all">
     <a href="/all-listings" className="button">View All 159 Listings</a>
