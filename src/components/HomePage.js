@@ -116,6 +116,24 @@ const HomePage = () => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <div className="listings-section">
   <div className="listings-header">
     <h2>Our Latest Listings</h2>
@@ -133,18 +151,19 @@ const HomePage = () => {
   <span>Niche</span>
   <span>Listing</span>
   <span>Monthly Net Profit</span>
-  <span>Price</span>
+  <span>Price </span>
 </div>
 
 {/* Dynamic Listings */}
 <div className="listings-container">
   {listings.map((listing, index) => (
     <div className="listing-row" key={index}>
-      <span>{listing.monetization}</span>
-      <span>{listing.niche}</span>
-      <span>{listing.id}</span>
+      <span><h3>{listing.monetization}</h3></span>
+     <button className='niche'><span>{listing.niche}</span> </button>
+      <span className='listing'><h4>{listing.id}</h4></span>
       <span>{listing.profit}</span>
-      <span>{listing.price}</span>
+      <span className='price'>{listing.price}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; <i className="fas fa-chevron-down"></i></span>
+    
     </div>
   ))}
 </div>
