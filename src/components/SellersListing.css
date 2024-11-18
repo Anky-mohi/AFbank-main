@@ -30,7 +30,7 @@
 }
 
 .background-content .cta-button {
-  background-color: #ffc107cc; /* Bright button color */
+  background-color: #4382c9; /* Bright button color */
   color: white;
   border: none;
   padding: 10px 20px;
@@ -41,7 +41,7 @@
 }
 
 .background-content .cta-button:hover {
-  background-color: #e05656; /* Slightly darker shade on hover */
+  background-color: #ffc107; /* Slightly darker shade on hover */
 }
 
 
@@ -213,6 +213,7 @@
     .filters-section {
       width: 100%;
       margin-bottom: 30px;
+      margin-top: 40px;
     }
   
     .sellers-grid-section {

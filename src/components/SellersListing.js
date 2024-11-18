@@ -75,7 +75,7 @@ const SellersListing = () => {
 
       {/* Seção Principal */}
       <div className="sellers-listing-fullpage">
-        <h2>Explore os Vendedores</h2>
+        <h2 className='listings-header'>Explore os Vendedores</h2>
 
         {/* Barra de Pesquisa */}
         <div className="search-bar-container">
