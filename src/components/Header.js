@@ -35,7 +35,7 @@ function Header() {
         <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <ul>
             <li onClick={handleLinkClick}><Link to="/SellersListing">Marketplace</Link></li>
-            <li onClick={handleLinkClick}><Link to="/buyers">Para Vendedores</Link></li>
+            <li onClick={handleLinkClick}><Link to="/ForSellers">Para Vendedores</Link></li>
             
             {/* Hoverable Dropdown for Pricing */}
             <li 

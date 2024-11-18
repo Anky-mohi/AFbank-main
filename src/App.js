@@ -17,6 +17,7 @@ import SellerProfile from './components/SellerProfile';
 
 import HomePage from './components/HomePage';
 import MAndASupport from './components/MAndASupport';
+import ForSellers from './components/ForSellers';
 
 
 
@@ -41,6 +42,7 @@ function App() {
                         <Route path="/resources" element={<Resources />} />
                         <Route path="/Register" element={<Register />} />
                         <Route path="/login" element={<Login />} />
+                        <Route path="/ForSellers" element={<ForSellers />} />
                         <Route path="/SellerProfile" element={<SellerProfile />} />
                         <Route path="/SellersListing" element={<SellersListing />} />
                         <Route path="/SellerDashboard/SellerDashboard" element={<SellerDashboard />} />
