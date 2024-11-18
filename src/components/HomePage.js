@@ -15,389 +15,303 @@ const HomePage = () => {
   const listings = [
     { 
       monetization: "eCommerce", 
-      niche: "Beauty", 
+      niche: "Beleza", 
       id: "#80328", 
-      profit: "$65,406.00", 
-      price: "$1,438,910.00", 
+      profit: "$65.406,00", 
+      price: "$1.438.910,00", 
       link: "/listing/80328" 
     },
     { 
       monetization: "Amazon FBA", 
-      niche: "Art, Children, Hobbies, Occasions & Gifts", 
+      niche: "Arte, Crianças, Hobbies, Ocasiões & Presentes", 
       id: "#80821", 
-      profit: "$25,213.00", 
-      price: "$1,134,540.00", 
+      profit: "$25.213,00", 
+      price: "$1.134.540,00", 
       link: "/listing/80821" 
     },
     {
-      monetization: "Multiple",
-      niche: "Newsletter, Display Advertising, Quizzes, Entertainment, Information",
+      monetization: "Múltiplos",
+      niche: "Boletins Informativos, Publicidade Display, Questionários, Entretenimento, Informação",
       id: "#80590",
-      profit: "$34,592.00",
-      price: "$1,037,760.00",
+      profit: "$34.592,00",
+      price: "$1.037.760,00",
       link: "/listing/80590"
     },
     {
       monetization: "Amazon FBA",
-      niche: "Supplements",
+      niche: "Suplementos",
       id: "#79631",
-      profit: "$9,612.00",
-      price: "$346,036.00",
+      profit: "$9.612,00",
+      price: "$346.036,00",
       link: "/listing/79631"
     },
     {
       monetization: "Amazon KDP",
-      niche: "News & Education, Information, Books",
+      niche: "Notícias & Educação, Informação, Livros",
       id: "#81053",
-      profit: "$7,314.00",
-      price: "$219,419.00",
+      profit: "$7.314,00",
+      price: "$219.419,00",
       link: "/listing/81053"
     },
     {
       monetization: "Amazon FBA",
-      niche: "Occasions & Gifts",
+      niche: "Ocasiões & Presentes",
       id: "#73349",
-      profit: "$5,570.00",
-      price: "$200,521.00",
+      profit: "$5.570,00",
+      price: "$200.521,00",
       link: "/listing/73349"
     },
     {
-      monetization: "Multiple",
-      niche: "Newsletter, Subscription, Other, Digital Media, Employment",
+      monetization: "Múltiplos",
+      niche: "Boletins Informativos, Assinaturas, Outros, Mídia Digital, Emprego",
       id: "#79094",
-      profit: "$2,453.00",
-      price: "$88,308.00",
+      profit: "$2.453,00",
+      price: "$88.308,00",
       link: "/listing/79094"
     },
     {
       monetization: "eCommerce",
-      niche: "Beauty",
+      niche: "Beleza",
       id: "#81084",
-      profit: "$2,696.00",
-      price: "$56,595.00",
+      profit: "$2.696,00",
+      price: "$56.595,00",
       link: "/listing/81084"
     },
   ];
 
-
-
   const handleSubscribe = (e) => {
     e.preventDefault();
-    alert('Thank you for subscribing!');
-    // Here you can add logic to send the email to your backend or email service
+    alert('Obrigado por se inscrever!');
   };
 
   return (
-
     <>
       <section className="homepage-section">
         <div className="content-container">
           <div className="left-column">
-            <h1 className="title">The #1 Curated Online Business Marketplace</h1>
+            <h1 className="title">O #1 Mercado Curado de Negócios Online</h1>
             <p className="description">
-              Join thousands of customers around the globe who’ve bought and sold over $510M+ worth of online businesses.
+              Junte-se a milhares de clientes ao redor do mundo que compraram e venderam mais de $510M+ em negócios online.
             </p>
             <div className="button-group">
-              <button className="btn get-started">Get Started for Free</button>
-              <button className="btn learn-more">Learn More</button>
+              <button className="btn get-started">Comece Grátis</button>
+              <button className="btn learn-more">Saiba Mais</button>
             </div>
-            <p className="as-seen-on">As Seen On</p>
+            <p className="as-seen-on">Visto em</p>
             <div class="as-seen-logo">
-              <i class="newyork" data-rocket-lazy-bg-f6cc6f94-51fb-4b79-8330-6efddd8fe388="loaded"></i>
-              <i class="inc" data-rocket-lazy-bg-dc406fbe-3532-4c89-991c-b40238a1ea89="loaded"></i>
-              <i class="forbes" data-rocket-lazy-bg-ed955994-d4a0-48c0-a2ca-ceffc4d59ade="loaded"></i>
-              <i class="huff" data-rocket-lazy-bg-4ac20cc2-821c-4954-8fa7-ae483b3d4704="loaded"></i>
-              <i class="moz" data-rocket-lazy-bg-a9c10fcb-be10-4fb3-b80c-faf58ec371db="loaded"></i>
+              <i class="newyork"></i>
+              <i class="inc"></i>
+              <i class="forbes"></i>
+              <i class="huff"></i>
+              <i class="moz"></i>
             </div>
           </div>
           <div className="right-column">
             <img src={macbookImage} alt="Showcase" className="showcase-image" />
-
           </div>
         </div>
       </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <div className="listings-section">
-  <div className="listings-header">
-    <h2>Our Latest Listings</h2>
-  
-    <p>Every Monday we publish new businesses for sale on our marketplace.</p>
-    
-    <p><strong>8 New Listings Published | 159 Listings Total</strong></p>
-    
-  </div>
-  <br></br>
-  <br></br>
+        <div className="listings-header">
+          <h2>Nossas Últimas Listagens</h2>
+          <p>Toda segunda-feira publicamos novos negócios à venda em nosso mercado.</p>
+          <p><strong>8 Novas Listagens Publicadas | 159 Listagens Totais</strong></p>
+        </div>
+        <br /><br />
 
-<div className="header-row">
-  <span>Monetization</span>
-  <span>Niche</span>
-  <span>Listing</span>
-  <span>Monthly Net Profit</span>
-  <span>Price </span>
-</div>
+        <div className="header-row">
+          <span>Monetização</span>
+          <span>Segmento</span>
+          <span>Listagem</span>
+          <span>Lucro Mensal</span>
+          <span>Preço</span>
+        </div>
 
-{/* Dynamic Listings */}
-<div className="listings-container">
-  {listings.map((listing, index) => (
-    <div className="listing-row" key={index}>
-      <span><h3>{listing.monetization}</h3></span>
-     <button className='niche'><span>{listing.niche}</span> </button>
-      <span className='listing'><h4>{listing.id}</h4></span>
-      <span>{listing.profit}</span>
-      <span className='price'>{listing.price}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; <i className="fas fa-chevron-down"></i></span>
-    
-    </div>
-  ))}
-</div>
+        {/* Dynamic Listings */}
+        <div className="listings-container">
+          {listings.map((listing, index) => (
+            <div className="listing-row" key={index}>
+              <span><h3>{listing.monetization}</h3></span>
+              <button className='niche'><span>{listing.niche}</span></button>
+              <span className='listing'><h4>{listing.id}</h4></span>
+              <span>{listing.profit}</span>
+              <span className='price'>{listing.price}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; <i className="fas fa-chevron-down"></i></span>
+            </div>
+          ))}
+        </div>
 
-  <div className="view-all">
-    <a href="/all-listings" className="button">View All 159 Listings</a>
-  </div>
-</div>
+        <div className="view-all">
+          <a href="/all-listings" className="button">Ver Todas as 159 Listagens</a>
+        </div>
+      </div>
 
+      <div className="subscription-section">
+        <h2>Publicamos Novos Negócios Toda Segunda-Feira</h2>
+        <p>Insira seu e-mail abaixo para ser o primeiro a saber.</p>
+        <form className="subscription-form" onSubmit={handleSubscribe}>
+          <input 
+            type="email" 
+            placeholder="Digite seu e-mail" 
+            className="subscription-input" 
+            required
+          />
+          <button type="submit" className="subscription-button">Receber Notificações</button>
+        </form>
+      </div>
 
+      <section className="how-it-works">
+        <div className="how-it-works-content">
+          <div className="image-column">
+            <img src={buyingbusiness}  alt="Como Funciona a Compra" className="how-it-works-image" />
+          </div>
+          <div className="text-column">
+            <h2>Como Funciona</h2>
+            <h3>Comprando um Negócio</h3>
+            <p>
+              Visite nosso mercado para encontrar negócios online lucrativos à venda. De investimentos passivos a ativos mais envolvidos, temos de tudo.
+            </p>
+            <p>
+              Encontrou um negócio online ou site que gostou? Desbloqueie a listagem para acessar tudo o que você precisa para revisar sua compra potencial: URL, Google Analytics, Demonstração de Lucros & Perdas, etc.
+            </p>
+            <a href="/how-to-buy" className="how-to-buy-button">Como Comprar um Negócio</a>
+          </div>
+        </div>
+      </section>
 
+      <section className="how-it-works-sell">
+        <div className="how-it-works-content">
+          <div className="text-column">
+            <h2>Como Funciona</h2>
+            <h3>Vendendo Seu Negócio</h3>
+            <p>
+              Venda seu site ou negócio online sem complicação. Acompanhamos você no processo, passo a passo, e filtramos compradores não sérios. Até transferimos o negócio para o comprador, para que você não precise.
+            </p>
+            <p>
+              Você ganha mais dinheiro conosco do que se vender por conta própria. Você não precisa comprar software. Não precisa entrar em contato com seu provedor de hospedagem. Nós fazemos tudo por você.
+            </p>
+            <a href="/how-to-sell" className="how-to-sell-button">Como Vender um Negócio</a>
+          </div>
+          <div className="image-column">
+            <img src={sellers} alt="Vendendo Seu Negócio" className="how-it-works-image" />
+          </div>
+        </div>
+      </section>
 
-
-
-<div className="subscription-section">
-      <h2>We Publish New Businesses Every Monday</h2>
-      <p>Enter your email below to be the first "In the Know"</p>
-      <form className="subscription-form" onSubmit={handleSubscribe}>
-        <input 
-          type="email" 
-          placeholder="Enter your email" 
-          className="subscription-input" 
-          required
-        />
-        <button type="submit" className="subscription-button">Get Notify</button>
-      </form>
-    </div>
-
-
-
-
-
-
-
-
-    <section className="how-it-works">
-  <div className="how-it-works-content">
-    <div className="image-column">
-      <img src={buyingbusiness}  alt="How It Works" className="how-it-works-image" />
-    </div>
-    <div className="text-column">
-      <h2>How It Works</h2>
-      <h3>Buying a Business</h3>
-      <p>
-        Visit our marketplace to find profitable online businesses for sale. From passive
-        investments to more involved assets, we’ve got them all.
-      </p>
-      <p>
-        See an online business or website you like? Unlock the listing for access to
-        everything you need to review your potential purchase: URL, Google Analytics, Profit & Loss
-        Statement, etc.
-      </p>
-      <a href="/how-to-buy" className="how-to-buy-button">How to Buy a Business</a>
-    </div>
-  </div>
-</section>
-
-
-
-
-
-
-
-<section className="how-it-works-sell">
-  <div className="how-it-works-content">
-    <div className="text-column">
-      <h2>How It Works</h2>
-      <h3>Selling Your Business</h3>
-      <p>
-        Sell your website or online business hassle-free. We hold your hand through the process, 
-        step-by-step, and weed out non-serious buyers. We even transfer the business to the buyer 
-        so you don’t have to.
-      </p>
-      <p>
-        You make more money with us than if you sell on your own. You don’t need to buy software. 
-        You don’t need to contact your web host. We do it all on your behalf.
-      </p>
-      <a href="/how-to-sell" className="how-to-sell-button">How to Sell a Business</a>
-    </div>
-    <div className="image-column">
-      <img src={sellers} alt="Selling Your Business" className="how-it-works-image" />
-    </div>
-  </div>
-</section>
+     
 
 
 
 
 
 
-
-
-
-
-<section className="popular-monetizations">
+      <section className="popular-monetizations">
   <div className="monetizations-header">
-    <h2>Popular Monetizations</h2>
+    <h2>Monetizaciones Populares</h2>
     <p>
-      Explore an exclusive selection of established online businesses for sale 
-      by selecting a category you are interested in below.
+      Explora una selección exclusiva de negocios online establecidos en venta 
+      al seleccionar una categoría que te interese a continuación.
     </p>
   </div>
   <div className="monetizations-grid">
     <div className="monetization-card">
       <img src={amazon} alt="Amazon Associates" />
       <h3>Amazon Associates</h3>
-      <p>15 Listings</p>
+      <p>15 Listados</p>
     </div>
     <div className="monetization-card">
       <img src={amazon} alt="Amazon FBA" />
       <h3>Amazon FBA</h3>
-      <p>70 Listings</p>
+      <p>70 Listados</p>
     </div>
     <div className="monetization-card">
       <img src={amazon} alt="Amazon FBM" />
       <h3>Amazon FBM</h3>
-      <p>3 Listings</p>
+      <p>3 Listados</p>
     </div>
     <div className="monetization-card">
       <img src={amazon} alt="Amazon KDP" />
       <h3>Amazon KDP</h3>
-      <p>9 Listings</p>
+      <p>9 Listados</p>
     </div>
     <div className="monetization-card">
       <img src={amazon} alt="Amazon Merch" />
       <h3>Amazon Merch</h3>
-      <p>2 Listings</p>
+      <p>2 Listados</p>
     </div>
     <div className="monetization-card">
       <img src={amazon} alt="Display Advertising" />
-      <h3>Display Advertising</h3>
-      <p>36 Listings</p>
+      <h3>Publicidad Display</h3>
+      <p>36 Listados</p>
     </div>
     <div className="monetization-card">
       <img src={amazon} alt="DropShipping" />
       <h3>DropShipping</h3>
-      <p>10 Listings</p>
+      <p>10 Listados</p>
     </div>
     <div className="monetization-card">
       <img src={amazon} alt="eCommerce" />
       <h3>eCommerce</h3>
-      <p>28 Listings</p>
+      <p>28 Listados</p>
     </div>
   </div>
 </section>
 
-
-
-
-
-
-
-
-
-
 <section class="why-choose-us">
   <div class="content-container">
     <div class="image-section">
-      <img src={why} alt="Why Choose Us Image" />
+      <img src={why} alt="Por Qué Elegirnos Imagen" />
     </div>
     <div class="text-section">
-      <h2>Why Choose Us?</h2>
-      <p class="highlight">$510M+ of Online Businesses Sold</p>
+      <h2>¿Por Qué Elegirnos?</h2>
+      <p class="highlight">$510M+ de Negocios Online Vendidos</p>
       <p class="description">
-        Empire Flippers is an Inc. 5000 company and the #1 curated marketplace 
-        to buy and sell an online business.
+        Empire Flippers es una empresa de Inc. 5000 y el mercado curado #1 
+        para comprar y vender un negocio online.
       </p>
     </div>
   </div>
   <div class="features-row">
     <div class="feature">
-      <h3>Legitimate Businesses</h3>
+      <h3>Negocios Legítimos</h3>
       <p>
-        We reject most businesses before they ever go live, ensuring you’ll have 
-        the highest quality of options for your next acquisition.
+        Rechazamos la mayoría de los negocios antes de que se publiquen, asegurando 
+        que tendrás las mejores opciones para tu próxima adquisición.
       </p>
     </div>
     <div class="feature">
-      <h3>Real Data</h3>
+      <h3>Datos Reales</h3>
       <p>
-        To find an internet business for sale, register for a free account 
-        to start your due diligence process.
+        Para encontrar un negocio en internet a la venta, regístrate para una cuenta gratuita 
+        y comienza tu proceso de debida diligencia.
       </p>
     </div>
     <div class="feature">
-      <h3>Done For You Migrations</h3>
+      <h3>Migraciones Hechas Para Ti</h3>
       <p>
-        Our team will help you every step of the way to transfer the asset once sold.
+        Nuestro equipo te ayudará en cada paso del camino para transferir el activo una vez vendido.
       </p>
     </div>
   </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <section class="business-sell-section">
   <div class="overlay">
     <div class="container">
-      <h2>Have an Online Business to Sell?</h2>
-      <p>Check out the online tools below to sell or value your business</p>
+      <h2>¿Tienes un Negocio Online para Vender?</h2>
+      <p>Consulta las herramientas online a continuación para vender o valorar tu negocio</p>
       <div class="button-group">
-        <button class="btn-primary">Sell My Online Business</button>
-        <button class="btn-secondary">Try Valuation Tool</button>
+        <button class="btn-primary">Vender Mi Negocio Online</button>
+        <button class="btn-secondary">Probar Herramienta de Valoración</button>
       </div>
     </div>
   </div>
 </section>
 
-
-
-
-
-
-
-
-
 <section class="latest-blog-posts">
   <div class="listings-header">
-    <h2>Latest Blog Posts</h2>
-    <p>See What's New on the Blog</p>
+    <h2>Últimas Publicaciones del Blog</h2>
+    <p>Mira lo que hay de nuevo en el blog</p>
   </div>
 
   <div class="blog-container">
@@ -408,18 +322,19 @@ const HomePage = () => {
       </div>
       <br></br>
       <div class="listings-header">
-        <h3>How to Optimize Your Packaging to Save Money and Improve Your Customer Experience</h3>
+        <h3>Cómo Optimizar Tu Empaque para Ahorrar Dinero y Mejorar la Experiencia del Cliente</h3>
         <p>
-          Packaging is an integral component of any eCommerce business. When someone 
-          orders your product online, it’s the package that ensures it moves safely from 
-          your warehouse to the customer. That external shell also provides them […]
+          El empaque es un componente integral de cualquier negocio de comercio electrónico. 
+          Cuando alguien pide tu producto online, es el paquete el que asegura que se mueva 
+          de manera segura desde tu almacén hasta el cliente. Ese envoltorio externo también 
+          les proporciona […]
         </p>
         <br></br>
         <div class="blog-meta">
           <span class="author">Tom Wicky</span>
           <span class="category">Amazon FBA, Ecommerce</span>
         </div>
-        <a href="#" class="read-more">READ MORE</a>
+        <a href="#" class="read-more">LEER MÁS</a>
       </div>
     </div>
 
@@ -430,50 +345,45 @@ const HomePage = () => {
       </div>
       <br></br>
       <div class="listings-header">
-        <h3>Techniques to Increase Conversion Rates on Shopify</h3>
+        <h3>Técnicas para Aumentar las Tasas de Conversión en Shopify</h3>
         <p>
-          The average conversion rate range for eCommerce websites is 1% to 4%. This means 
-          that out of every 100 visitors, typically 1 to 4 people make a purchase. Is your 
-          Shopify website conversion rate within […]
+          El rango promedio de tasas de conversión para sitios web de comercio electrónico es de 1% a 4%. 
+          Esto significa que de cada 100 visitantes, típicamente 1 a 4 personas realizan una compra. 
+          ¿Está tu tasa de conversión de Shopify dentro […]
         </p>
         <br></br>
         <div class="blog-meta">
           <span class="author">Ryan Robinson</span>
           <span class="category">Ecommerce</span>
         </div>
-        <a href="#" class="read-more">READ MORE</a>
+        <a href="#" class="read-more">LEER MÁS</a>
       </div>
     </div>
   </div>
 
   <div class="view-all">
-    <a href="#" class="view-all-link">View All Blog Posts</a>
+    <a href="#" class="view-all-link">Ver Todas las Publicaciones del Blog</a>
   </div>
 </section>
-
-
-
-
-
-
 
 <section class="business-consultation-section">
   <div class="container">
     <div class="left-div">
       <p class="phone-number">+1-888 658 8388</p>
-      <p class="description">Let us simplify the process for you, click the button below.</p>
-      <button class="btn-primary">Schedule a Free Call</button>
+      <p class="description">Permítenos simplificar el proceso para ti, haz clic en el botón a continuación.</p>
+      <button class="btn-primary">Agenda una Llamada Gratis</button>
     </div>
     <div class="right-div">
-      <p class="heading">Our M&A advisors are ready to help you make your next big move.</p>
-      <p class="subtext">Consult with our industry-leading business analysts today.</p>
+      <p class="heading">Nuestros asesores en M&A están listos para ayudarte a dar tu próximo gran paso.</p>
+      <p class="subtext">Consulta con nuestros analistas de negocios líderes en la industria hoy mismo.</p>
     </div>
   </div>
 </section>
 
-    </>
 
-  )
+
+    </>
+  );
 }
 
 export default HomePage;

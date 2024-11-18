@@ -6,38 +6,39 @@ const Buyers = () => {
 
   const faqs = [
     { 
-      question: "Does a Platinum subscription guarantee I’ll find a startup I like?", 
-      answer: "While we provide curated and vetted listings, finding the right startup depends on your preferences and needs." 
+      question: "Uma assinatura Platinum garante que eu encontre uma startup que eu goste?", 
+      answer: "Embora ofereçamos listas selecionadas e verificadas, encontrar a startup certa depende de suas preferências e necessidades." 
     },
     { 
-      question: "Can I cancel a Platinum or Premium subscription?", 
-      answer: "Yes, you can cancel anytime. Your access will remain active until the end of your billing cycle." 
+      question: "Posso cancelar uma assinatura Platinum ou Premium?", 
+      answer: "Sim, você pode cancelar a qualquer momento. Seu acesso permanecerá ativo até o final do ciclo de cobrança." 
     },
     { 
-      question: "I already have a Premium subscription. Can I upgrade to Platinum?", 
-      answer: "Yes, you can upgrade at any time. The cost will be adjusted based on your existing subscription." 
+      question: "Já tenho uma assinatura Premium. Posso fazer upgrade para Platinum?", 
+      answer: "Sim, você pode fazer upgrade a qualquer momento. O custo será ajustado com base na sua assinatura existente." 
     },
     { 
-      question: "How does priority support work with a Platinum subscription?", 
-      answer: "Platinum members receive expedited responses and dedicated support from our experienced team." 
+      question: "Como funciona o suporte prioritário com a assinatura Platinum?", 
+      answer: "Membros Platinum recebem respostas rápidas e suporte dedicado de nossa equipe experiente." 
     },
     { 
-      question: "Do I need a Platinum subscription to acquire more than one startup?", 
-      answer: "No, but Platinum offers enhanced tools and access to startups of all sizes, making acquisitions easier." 
+      question: "Preciso de uma assinatura Platinum para adquirir mais de uma startup?", 
+      answer: "Não, mas o Platinum oferece ferramentas avançadas e acesso a startups de todos os tamanhos, facilitando as aquisições." 
     },
   ];
 
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
+
   return (
     <>
     <div className="buyers-container">
       {/* Heading Section */}
       <div className="buyers-heading">
-        <h2>Simple, Transparent Pricing</h2>
+        <h2>Preços Simples e Transparentes</h2>
         <p>
-          Whether it’s your first acquisition or you acquire for a living, we’ve got the right plan for you.
+          Seja sua primeira aquisição ou você já adquira regularmente, temos o plano certo para você.
         </p>
       </div>
 
@@ -45,46 +46,38 @@ const Buyers = () => {
       <div className="buyers-cards">
         {/* Basic Plan */}
         <div className="buyers-card">
-          <h3>For aspiring acquirers</h3>
-          <h2 className="plan-title">Basic</h2>
-          <div className="plan-price">Free</div>
-          <p className="plan-description">Explore 10 listings. No credit card required.</p>
-          <button className="cta-button">Start Free Trial</button>
+          <h3>Para adquirentes aspirantes</h3>
+          <h2 className="plan-title">Básico</h2>
+          <div className="plan-price">Gratuito</div>
+          <p className="plan-description">Explore 10 listas. Sem necessidade de cartão de crédito.</p>
+          <button className="cta-button">Iniciar Avaliação Gratuita</button>
         </div>
 
         {/* Premium Plan (Highlighted) */}
         <div className="buyers-card premium-card">
-          <div className="popular-badge">MOST POPULAR</div>
-          <h3>For career entrepreneurs</h3>
+          <div className="popular-badge">MAIS POPULAR</div>
+          <h3>Para empreendedores de carreira</h3>
           <h2 className="plan-title">⭐ Premium</h2>
-          <div className="plan-price">$390/year</div>
-          <p className="plan-description">Access startups up to $250k in TTM revenue.</p>
-          <button className="cta-button">Start with Premium</button>
+          <div className="plan-price">R$ 390/ano</div>
+          <p className="plan-description">Acesse startups com até R$ 250 mil em receita TTM.</p>
+          <button className="cta-button">Começar com o Premium</button>
         </div>
 
         {/* Platinum Plan */}
         <div className="buyers-card">
-          <h3>For serial acquirers</h3>
+          <h3>Para adquirentes em série</h3>
           <h2 className="plan-title">💎 Platinum</h2>
-          <div className="plan-price">$780/year</div>
-          <p className="plan-description">Access vetted startups of all sizes.</p>
-          <button className="cta-button">Go Platinum</button>
+          <div className="plan-price">R$ 780/ano</div>
+          <p className="plan-description">Acesse startups verificadas de todos os tamanhos.</p>
+          <button className="cta-button">Ir para o Platinum</button>
         </div>
       </div>
     </div>
 
-
-
-
-
-
-
-
-
     <div className="comparison-table-container">
       {/* Heading Section */}
       <div className="comparison-heading">
-        <h2>Compare our pricing plans to find the right one for you</h2>
+        <h2>Compare nossos planos de preços e encontre o ideal para você</h2>
       </div>
 
       {/* Table Section */}
@@ -92,24 +85,24 @@ const Buyers = () => {
         {/* Table Header */}
         <div className="table-header">
           <div className="feature-column"></div>
-          <div className="plan-column">Free</div>
+          <div className="plan-column">Gratuito</div>
           <div className="plan-column">Premium</div>
           <div className="plan-column">Platinum</div>
         </div>
 
         {/* Table Rows */}
         {[
-          "View public details of listed startups (up to plan limit)",
-          "Filter listings to find your ideal fit",
-          "Get instant notifications of new startups matching your search criteria",
-          "Browse quality startups curated by our team and delivered straight to your inbox",
-          "View connected financial, customer, and web traffic metrics",
-          "Streamline your acquisition with our guided workflow",
-          "Build, sign, and send LOIs and APAs in minutes",
-          "View verified seller profiles (identity, email, and social media)",
-          "Contact founders of vetted startups up to $250k in revenue",
-          "Contact founders of vetted startups of all sizes",
-          "Priority customer support",
+          "Visualizar detalhes públicos de startups listadas (até o limite do plano)",
+          "Filtrar listas para encontrar seu ajuste ideal",
+          "Receber notificações instantâneas de novas startups que correspondem aos seus critérios de busca",
+          "Explorar startups de qualidade selecionadas por nossa equipe",
+          "Visualizar métricas financeiras, de clientes e de tráfego web conectadas",
+          "Simplificar sua aquisição com nosso fluxo de trabalho guiado",
+          "Criar, assinar e enviar LOIs e APAs em minutos",
+          "Visualizar perfis de vendedores verificados (identidade, e-mail e redes sociais)",
+          "Contactar fundadores de startups verificadas com até R$ 250 mil em receita",
+          "Contactar fundadores de startups verificadas de todos os tamanhos",
+          "Suporte ao cliente prioritário",
         ].map((feature, index) => (
           <div className="table-row" key={index}>
             <div className="feature-column">{feature}</div>
@@ -122,22 +115,14 @@ const Buyers = () => {
 
       {/* Call-to-Action Buttons */}
       <div className="cta-section">
-        <button className="cta-button">Start Free Trial</button>
-        <button className="cta-button premium-button">Start with Premium</button>
-        <button className="cta-button platinum-button">Go Platinum</button>
+        <button className="cta-button">Iniciar Avaliação Gratuita</button>
+        <button className="cta-button premium-button">Começar com o Premium</button>
+        <button className="cta-button platinum-button">Ir para o Platinum</button>
       </div>
     </div>
 
-
-
-
-
-
-
-
-
     <div className="faq-container">
-      <h2>FAQs</h2>
+      <h2>Perguntas Frequentes</h2>
       <div className="faq-list">
         {faqs.map((faq, index) => (
           <div key={index} className={`faq-item ${activeIndex === index ? "active" : ""}`}>

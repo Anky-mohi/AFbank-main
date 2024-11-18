@@ -35,7 +35,7 @@ function Header() {
         <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <ul>
             <li onClick={handleLinkClick}><Link to="/SellersListing">Marketplace</Link></li>
-            <li onClick={handleLinkClick}><Link to="/buyers">For Sellers</Link></li>
+            <li onClick={handleLinkClick}><Link to="/buyers">Para Vendedores</Link></li>
             
             {/* Hoverable Dropdown for Pricing */}
             <li 
@@ -43,11 +43,11 @@ function Header() {
               onMouseEnter={() => handleMouseEnter('pricing')} 
               onMouseLeave={() => handleMouseLeave('pricing')}
             >
-              <Link>Pricing&nbsp; <i className="fas fa-chevron-down"></i></Link>
+              <Link>Preços&nbsp; <i className="fas fa-chevron-down"></i></Link>
               {dropdownOpen.pricing && (
                 <ul className="dropdown-menu">
-                  <li onClick={handleLinkClick}><Link to="/Sellers">Sellers</Link></li>
-                  <li onClick={handleLinkClick}><Link to="/Buyers">Buyers</Link></li>
+                  <li onClick={handleLinkClick}><Link to="/Sellers">Vendedores</Link></li>
+                  <li onClick={handleLinkClick}><Link to="/Buyers">Compradores</Link></li>
                 </ul>
               )}
             </li>
@@ -58,12 +58,12 @@ function Header() {
               onMouseEnter={() => handleMouseEnter('resources')} 
               onMouseLeave={() => handleMouseLeave('resources')}
             >
-              <Link>Resources&nbsp; <i className="fas fa-chevron-down"></i></Link>
+              <Link>Recursos&nbsp; <i className="fas fa-chevron-down"></i></Link>
               {dropdownOpen.resources && (
                 <ul className="dropdown-menu">
                   <li onClick={handleLinkClick}><Link to="/resources/blog">Blog</Link></li>
-                  <li onClick={handleLinkClick}><Link to="/resources/guides">Guides</Link></li>
-                  <li onClick={handleLinkClick}><Link to="/resources/case-studies">Case Studies</Link></li>
+                  <li onClick={handleLinkClick}><Link to="/resources/guides">Guias</Link></li>
+                  <li onClick={handleLinkClick}><Link to="/resources/case-studies">Estudos de Caso</Link></li>
                 </ul>
               )}
             </li>
@@ -73,10 +73,10 @@ function Header() {
         {/* Call-to-Action Buttons */}
         <div className="cta-buttons">
           <Link to="/Login" className="btn-valuation1">
-            <i className="fa fa-lock" style={{ color: '#ffc107' }} aria-hidden="true"></i>&nbsp; Log In
+            <i className="fa fa-lock" style={{ color: '#ffc107' }} aria-hidden="true"></i>&nbsp; Entrar
           </Link>
           <Link to="/valuation" className="btn-valuation">
-            Get Started &nbsp;<i className="fa fa-arrow-right" style={{ color: 'white' }}></i>
+            Comece Agora &nbsp;<i className="fa fa-arrow-right" style={{ color: 'white' }}></i>
           </Link>
         </div>
 
