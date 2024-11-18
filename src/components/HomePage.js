@@ -4,8 +4,11 @@ import macbookImage from '../assets/macbook.png';
 import buyingbusiness from '../assets/buying-business-2.png';
 import { motion } from 'framer-motion';
 import sellers from '../assets/sellers.png';
-
+import why from '../assets/Why-choose-us.jpg';
 import amazon from '../assets/amazon-associates.svg';
+import startup from '../assets/A-Startups-Guide-to-Ecommerce-Inventory-Management-506x296.jpg';
+import future from '../assets/The-Future-of-E-commerce-Trends-and-Predictions-for-Shopify-Businesses-506x296.jpg';
+
 
 const HomePage = () => {
 
@@ -310,6 +313,163 @@ const HomePage = () => {
   </div>
 </section>
 
+
+
+
+
+
+
+
+
+
+<section class="why-choose-us">
+  <div class="content-container">
+    <div class="image-section">
+      <img src={why} alt="Why Choose Us Image" />
+    </div>
+    <div class="text-section">
+      <h2>Why Choose Us?</h2>
+      <p class="highlight">$510M+ of Online Businesses Sold</p>
+      <p class="description">
+        Empire Flippers is an Inc. 5000 company and the #1 curated marketplace 
+        to buy and sell an online business.
+      </p>
+    </div>
+  </div>
+  <div class="features-row">
+    <div class="feature">
+      <h3>Legitimate Businesses</h3>
+      <p>
+        We reject most businesses before they ever go live, ensuring you’ll have 
+        the highest quality of options for your next acquisition.
+      </p>
+    </div>
+    <div class="feature">
+      <h3>Real Data</h3>
+      <p>
+        To find an internet business for sale, register for a free account 
+        to start your due diligence process.
+      </p>
+    </div>
+    <div class="feature">
+      <h3>Done For You Migrations</h3>
+      <p>
+        Our team will help you every step of the way to transfer the asset once sold.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="business-sell-section">
+  <div class="overlay">
+    <div class="container">
+      <h2>Have an Online Business to Sell?</h2>
+      <p>Check out the online tools below to sell or value your business</p>
+      <div class="button-group">
+        <button class="btn-primary">Sell My Online Business</button>
+        <button class="btn-secondary">Try Valuation Tool</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="latest-blog-posts">
+  <div class="listings-header">
+    <h2>Latest Blog Posts</h2>
+    <p>See What's New on the Blog</p>
+  </div>
+
+  <div class="blog-container">
+   
+    <div class="blog-post">
+      <div class="blog-image">
+        <img src={startup} alt="Blog Post 1" />
+      </div>
+      <br></br>
+      <div class="listings-header">
+        <h3>How to Optimize Your Packaging to Save Money and Improve Your Customer Experience</h3>
+        <p>
+          Packaging is an integral component of any eCommerce business. When someone 
+          orders your product online, it’s the package that ensures it moves safely from 
+          your warehouse to the customer. That external shell also provides them […]
+        </p>
+        <br></br>
+        <div class="blog-meta">
+          <span class="author">Tom Wicky</span>
+          <span class="category">Amazon FBA, Ecommerce</span>
+        </div>
+        <a href="#" class="read-more">READ MORE</a>
+      </div>
+    </div>
+
+    
+    <div class="blog-post">
+      <div class="blog-image">
+        <img src={future} alt="Blog Post 2" />
+      </div>
+      <br></br>
+      <div class="listings-header">
+        <h3>Techniques to Increase Conversion Rates on Shopify</h3>
+        <p>
+          The average conversion rate range for eCommerce websites is 1% to 4%. This means 
+          that out of every 100 visitors, typically 1 to 4 people make a purchase. Is your 
+          Shopify website conversion rate within […]
+        </p>
+        <br></br>
+        <div class="blog-meta">
+          <span class="author">Ryan Robinson</span>
+          <span class="category">Ecommerce</span>
+        </div>
+        <a href="#" class="read-more">READ MORE</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="view-all">
+    <a href="#" class="view-all-link">View All Blog Posts</a>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="business-consultation-section">
+  <div class="container">
+    <div class="left-div">
+      <p class="phone-number">+1-888 658 8388</p>
+      <p class="description">Let us simplify the process for you, click the button below.</p>
+      <button class="btn-primary">Schedule a Free Call</button>
+    </div>
+    <div class="right-div">
+      <p class="heading">Our M&A advisors are ready to help you make your next big move.</p>
+      <p class="subtext">Consult with our industry-leading business analysts today.</p>
+    </div>
+  </div>
+</section>
 
     </>
 

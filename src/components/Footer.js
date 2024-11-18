@@ -22,6 +22,7 @@ function Footer() {
       <div className="footer-links">
         <div className="footer-column">
           <h3>Site Links</h3>
+          <br></br>
           <ul>
             <li><a href="#">Marketplace</a></li>
             <li><a href="#">About Us</a></li>
@@ -33,6 +34,7 @@ function Footer() {
         </div>
         <div className="footer-column">
           <h3>Resources</h3>
+          <br></br>
           <ul>
             <li><a href="#">Sell Your Site</a></li>
             <li><a href="#">Valuation Tool</a></li>
@@ -44,6 +46,7 @@ function Footer() {
         </div>
         <div className="footer-column">
           <h3>Newsletter</h3>
+          <br></br>
           <p>Want to get the latest industry news and tips?</p>
           <form className="newsletter-form">
             <input type="email" placeholder="Enter your email" />
