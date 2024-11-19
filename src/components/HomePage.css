@@ -699,9 +699,7 @@ color: #356aa8;
 
   .header-row span,
   .listing-row span {
-    border-bottom: 1px solid #ddd;
-    padding: 8px 0;
-    text-align: left;
+    
   }
 
   .header-row span:last-child,
