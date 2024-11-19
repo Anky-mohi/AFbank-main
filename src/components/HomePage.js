@@ -7,6 +7,8 @@ import amazon from '../assets/amazon-associates.svg';
 import startup from '../assets/A-Startups-Guide-to-Ecommerce-Inventory-Management-506x296.jpg';
 import future from '../assets/The-Future-of-E-commerce-Trends-and-Predictions-for-Shopify-Businesses-506x296.jpg';
 import why from '../assets/Why-choose-us.jpg';
+import right from '../assets/AI_Generated_Image_2024-11-19_469708523007201.png';
+import left from '../assets/AI_Generated_Image_2024-11-19_469709646017201.png';
 const HomePage = () => {
 
   const listings = [
@@ -115,44 +117,71 @@ const HomePage = () => {
         </form>
       </div>
 
-      {/* How It Works - Buying a Business */}
-      <section className="how-it-works">
-        <div className="how-it-works-content">
-          <div className="text-column">
-            <h2>Como Funciona</h2>
-            <h3>Comprando um Negócio</h3>
-            <p>
-              Acesse nosso marketplace e descubra negócios online já validados e em operação. Temos opções que vão desde investimentos passivos até negócios mais complexos, atendendo a todos os perfis de investidores.
-            </p>
-            <p>
-              Encontrou um negócio ou site interessante? Desbloqueie a listagem agora com nossa assinatura e tenha acesso a todos os dados essenciais para avaliar sua compra com segurança: URL, Google Analytics, Demonstração de Lucros e Perdas, e muito mais.
-            </p>
-            <a href="/signup" className="btn-action">Página de Cadastro</a>
-          </div>
-          <div className="image-column">
-            <img src={buyingbusiness} alt="Comprando um Negócio" />
-          </div>
-        </div>
-      </section>
 
-      {/* How It Works - Selling Your Business */}
-      <section className="how-it-works-sell">
-        <div className="how-it-works-content">
-          <div className="text-column">
-            <h3>Vendendo Seu Negócio</h3>
-            <p>
-              Venda seu site ou negócio online de maneira prática e segura. Estamos com você em cada etapa, assegurando que apenas compradores qualificados participem do processo.
-            </p>
-            <p>
-              Após se tornar assinante, cuidamos da listagem do seu negócio e até mesmo da transferência para o novo comprador, para que você não precise se preocupar com burocracia.
-            </p>
-            <a href="/signup" className="btn-action">Página de Cadastro</a>
-          </div>
-          <div className="image-column">
-            <img src={sellers} alt="Vendendo Seu Negócio" />
-          </div>
-        </div>
-      </section>
+
+
+
+
+      <section class="como-funciona">
+  <div class="content-wrapper">
+    
+    <div class="text-content">
+      <h2>Como Funciona</h2>
+      <h3>Comprando um Negócio</h3>
+      <p>
+        Acesse nosso marketplace e descubra negócios online já validados e em operação. 
+        Temos opções que vão desde investimentos passivos até negócios mais complexos, 
+        atendendo a todos os perfis de investidores.
+      </p>
+      <p>
+        Encontrou um negócio ou site interessante? Desbloqueie a listagem agora com nossa 
+        assinatura e tenha acesso a todos os dados essenciais para avaliar sua compra 
+        com segurança: URL, Google Analytics, Demonstração de Lucros e Perdas, e muito mais.
+      </p>
+      <a href="#" class="cta-button">Página de Cadastro</a>
+    </div>
+
+   
+    <div class="image-content">
+      <img src={right} alt="Marketplace" />
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="como-funciona">
+  <div class="content-wrapper">
+    
+    <div class="image-content">
+      <img src={left} alt="Marketplace" />
+    </div>
+
+   
+    <div class="text-content">
+      <h2>Como Funciona</h2>
+      <h3>Comprando um Negócio</h3>
+      <p>
+        Acesse nosso marketplace e descubra negócios online já validados e em operação. 
+        Temos opções que vão desde investimentos passivos até negócios mais complexos, 
+        atendendo a todos os perfis de investidores.
+      </p>
+      <p>
+        Encontrou um negócio ou site interessante? Desbloqueie a listagem agora com nossa 
+        assinatura e tenha acesso a todos os dados essenciais para avaliar sua compra 
+        com segurança: URL, Google Analytics, Demonstração de Lucros e Perdas, e muito mais.
+      </p>
+      <a href="#" class="cta-button">Página de Cadastro</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
 
 
       
