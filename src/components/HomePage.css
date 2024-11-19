@@ -1014,6 +1014,7 @@
 
 .listings-headers span {
   padding: 5px 0;
+  color: #444444ad;
 }
 
 /* Listings Container */
@@ -1043,8 +1044,8 @@
 }
 
 .listing-row h3, .listing-row h4 {
-  font-size: 1rem;
-  color: #555;
+  font-size: 1.5rem;
+  color: black;
 }
 
 .niche span {
@@ -1167,6 +1168,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  margin-left: 10px;
 }
 
 .btn-primary, .btn-secondary {
