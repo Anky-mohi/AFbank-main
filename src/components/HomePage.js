@@ -9,6 +9,12 @@ import future from '../assets/The-Future-of-E-commerce-Trends-and-Predictions-fo
 import why from '../assets/Why-choose-us.jpg';
 import right from '../assets/AI_Generated_Image_2024-11-19_469708523007201.png';
 import left from '../assets/AI_Generated_Image_2024-11-19_469709646017201.png';
+ import amazonfbm from '../assets/amazon-fbm.svg';
+ import amazonkdp from '../assets/amazon-kdp.svg';
+ import displayadvertising from '../assets/display-advertising.svg';
+ import dropshipping from '../assets/dropshipping.svg';
+import ecommerce from '../assets/e-commerce.svg';
+ import amazonmerch from '../assets/amazon-merch.svg';
 const HomePage = () => {
 
   const listings = [
@@ -82,25 +88,59 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Latest Listings Section */}
-      <div className="listings-section">
-        <h2 >Nossas Últimas Listagens</h2>
-        <p>Todas os dias publicamos novos negócios à venda em nosso marketplace.</p>
-        <div className="listings-container">
-          {listings.map((listing, index) => (
-            <div className="listing-row" key={index}>
-              <span><h3>{listing.monetization}</h3></span>
-              <span className="niche"><span>{listing.niche}</span></span>
-              <span><h4>{listing.id}</h4></span>
-              <span>{listing.profit}</span>
-              <span className="price">{listing.price}</span>
-            </div>
-          ))}
-        </div>
-        <div className="view-all">
-          <a href="/all-listings" className="button">Ver Todas as Listagens</a>
-        </div>
+
+
+
+
+
+{/* Latest Listings Section */}
+<div className="listings-section">
+  <h2>Nossas Últimas Listagens</h2>
+  <p>Todas os dias publicamos novos negócios à venda em nosso marketplace.</p>
+
+  {/* New Summary Section */}
+  <div className="listings-summary">
+    <div className="summary-text">
+      <strong>8 New Listings Published</strong> <span>154 Listings Total</span>
+    </div>
+    <div className="listings-headers">
+      <span>Monetization</span>
+      <span>Niche</span>
+      <span>Listing</span>
+      <span>Monthly Net Profit</span>
+      <span>Price</span>
+    </div>
+  </div>
+
+  {/* Listings Container */}
+  <div className="listings-container">
+    {listings.map((listing, index) => (
+      <div className="listing-row" key={index}>
+        <span><h3>{listing.monetization}</h3></span>
+        <span className="niche"><span>{listing.niche}</span></span>
+        <span><h4>{listing.id}</h4></span>
+        <span>{listing.profit}</span>
+        <span className="price">{listing.price}</span>
       </div>
+    ))}
+  </div>
+
+  {/* View All Button */}
+  <div className="view-all">
+    <a href="/all-listings" className="button">Ver Todas as Listagens</a>
+  </div>
+</div>
+
+
+
+
+
+     
+
+
+
+
+
 
       {/* Subscription Section */}
       <div className="subscription-section">
@@ -205,32 +245,32 @@ const HomePage = () => {
       <p>70 Listados</p>
     </div>
     <div className="monetization-card">
-      <img src={amazon} alt="Amazon FBM" />
+      <img src={amazonfbm} alt="Amazon FBM" />
       <h3>Amazon FBM</h3>
       <p>3 Listados</p>
     </div>
     <div className="monetization-card">
-      <img src={amazon} alt="Amazon KDP" />
+      <img src={amazonkdp} alt="Amazon KDP" />
       <h3>Amazon KDP</h3>
       <p>9 Listados</p>
     </div>
     <div className="monetization-card">
-      <img src={amazon} alt="Amazon Merch" />
+      <img src={amazonmerch} alt="Amazon Merch" />
       <h3>Amazon Merch</h3>
       <p>2 Listados</p>
     </div>
     <div className="monetization-card">
-      <img src={amazon} alt="Display Advertising" />
+      <img src={displayadvertising} alt="Display Advertising" />
       <h3>Publicidad Display</h3>
       <p>36 Listados</p>
     </div>
     <div className="monetization-card">
-      <img src={amazon} alt="DropShipping" />
+      <img src={dropshipping} alt="DropShipping" />
       <h3>DropShipping</h3>
       <p>10 Listados</p>
     </div>
     <div className="monetization-card">
-      <img src={amazon} alt="eCommerce" />
+      <img src={ecommerce} alt="eCommerce" />
       <h3>eCommerce</h3>
       <p>28 Listados</p>
     </div>
@@ -314,7 +354,7 @@ const HomePage = () => {
           <span class="author">Tom Wicky</span>
           <span class="category">Amazon FBA, Ecommerce</span>
         </div>
-        <a href="#" class="read-more">LEER MÁS</a>
+       
       </div>
     </div>
 
@@ -336,7 +376,7 @@ const HomePage = () => {
           <span class="author">Ryan Robinson</span>
           <span class="category">Ecommerce</span>
         </div>
-        <a href="#" class="read-more">LEER MÁS</a>
+        
       </div>
     </div>
   </div>

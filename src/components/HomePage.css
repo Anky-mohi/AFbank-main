@@ -575,170 +575,6 @@
 
 
 
-/* Base styles */
-.listings-section {
-  font-family: 'Roboto', sans-serif;
-  padding: 40px 20px;
-  background-color: #f9f9f9;
-  color: #333;
-  text-align: center;
-}
-
-/* Header Section */
-.listings-header {
-  margin-bottom: 30px;
-}
-
-.listings-header h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #2c3e50;
-}
-
-.listings-header p {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.6;
-}
-
-.listings-header strong {
-  color: #e67e22;
-  font-weight: bold;
-}
-
-/* Table Header Row */
-.header-row {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1.5fr 1fr;
-  padding: 15px;
-  background-color: #4382c9;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  font-size: 0.9rem;
-}
-
-/* Listing Rows */
-.listings-container {
-  display: grid;
-  gap: 10px;
-}
-
-.listing-row {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1.5fr 1fr;
-  padding: 29px 20px;
-  background-color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-decoration: none;
-  color: inherit;
-}
-
-.listing-row:hover {
-  transform: scale(1.02);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
-}
-
-.niche {
-  background-color: white;
-  color: #356aa8;
-  border: 1px solid #356aa8;
-  padding: 10px 20px;
-  text-align: center;
-  cursor: pointer;
-}
-
-
-.niche:hover {
-  color: #555;
-}
-.listing {
-color: #356aa8;
-}
-.price {
-  color: #e67e22;
-}
-.listing-content span {
-  font-size: 0.9rem;
-  color: #555;
-  font-weight: 500;
-}
-
-/* Spacing within rows */
-.listing-content span {
-  padding: 5px 10px;
-  text-align: center;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  /* Header and rows adapt to 2-column layout */
-  .header-row,
-  .listing-row {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .header-row span:nth-child(n+3),
-  .listing-row span:nth-child(n+3) {
-    display: none;
-  }
-
-  .listing-content span {
-    text-align: left;
-  }
-}
-
-@media (max-width: 480px) {
-  /* Mobile-first: Each row stacks vertically */
-  .header-row,
-  .listing-row {
-    grid-template-columns: 1fr;
-    padding: 10px;
-  }
-
-  .header-row span,
-  .listing-row span {
-    
-  }
-
-  .header-row span:last-child,
-  .listing-row span:last-child {
-    border-bottom: none;
-  }
-
-  .listing-content span {
-    display: block;
-    font-size: 0.85rem;
-    margin-bottom: 5px;
-  }
-}
-
-/* View All Button */
-.view-all {
-  margin-top: 20px;
-}
-
-.view-all .button {
-  display: inline-block;
-  padding: 12px 25px;
-  background-color: #4382c9;
-  color: white;
-  text-decoration: none;
-  font-size: 1rem;
-  border-radius: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s, transform 0.3s;
-}
-
-.view-all .button:hover {
-  background-color: #356aa8;
-  transform: scale(1.05);
-}
 
 
 
@@ -1046,7 +882,7 @@ color: #356aa8;
 
 .feature h3 {
   font-size: 1.3rem;
-  color: #333;
+  color: #4382c9;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -1096,6 +932,168 @@ color: #356aa8;
 
 
 
+.listings-section {
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #f7f9fc, #ffffff);
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.listings-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #1a73e8;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.listings-section p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #555;
+}
+
+/* New Summary Section */
+.listings-summary {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.summary-text {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: #1a73e8;
+  font-weight: bold;
+}
+
+.listings-headers {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: left;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+  border-top: 2px solid #ddd;
+  padding-top: 10px;
+}
+
+.listings-headers span {
+  padding: 5px 0;
+}
+
+/* Listings Container */
+.listings-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.listing-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 15px;
+  background: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.listing-row:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.listing-row span {
+  padding: 5px 0;
+}
+
+.listing-row h3, .listing-row h4 {
+  font-size: 1rem;
+  color: #555;
+}
+
+.niche span {
+  background: #eef;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #1a73e8;
+}
+
+/* View All Button */
+.view-all {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.view-all .button {
+  padding: 12px 30px;
+  background: linear-gradient(90deg, #1a73e8, #155cbc);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.view-all .button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .summary-text {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .listings-headers {
+    display: none; /* Hide headers on smaller screens */
+  }
+
+  .listing-row {
+    grid-template-columns: 1fr; /* Stack all content in a single column */
+    text-align: center;
+  }
+
+  .view-all .button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .listings-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .listings-section p {
+    font-size: 0.9rem;
+  }
+
+  .summary-text {
+    font-size: 1rem;
+  }
+}
+
+
+
+
 
 
 
@@ -1124,6 +1122,10 @@ color: #356aa8;
   font-size: 2rem;
   color: #fff;
  margin-top: 30px;
+ font-size: 2.5rem;
+ 
+ font-weight: bold;
+ margin-bottom: 20px;
 }
 
 .business-sell-section p {
