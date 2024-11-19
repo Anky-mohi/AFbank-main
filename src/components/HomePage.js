@@ -84,7 +84,7 @@ const HomePage = () => {
 
       {/* Latest Listings Section */}
       <div className="listings-section">
-        <h2>Nossas Últimas Listagens</h2>
+        <h2 >Nossas Últimas Listagens</h2>
         <p>Todas os dias publicamos novos negócios à venda em nosso marketplace.</p>
         <div className="listings-container">
           {listings.map((listing, index) => (

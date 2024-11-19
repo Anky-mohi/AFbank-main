@@ -494,6 +494,10 @@
   font-size: 2rem;
   color: #333;
   margin-bottom: 10px;
+  font-size: 2.5rem;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .monetizations-header p {
@@ -778,6 +782,10 @@ color: #356aa8;
   font-size: 2.5rem;
   margin-bottom: 10px;
   color: #1a73e8;
+  font-size: 2.5rem;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .text-content h3 {
@@ -975,6 +983,14 @@ color: #356aa8;
   height: auto;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.listings-section h2 {
+
+  font-size: 2.5rem;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /* Text Section Styling */
@@ -1279,7 +1295,7 @@ color: #356aa8;
 }
 
 .view-all-link {
-  font-size: 1.2rem;
+  
   color: #fff;
   background: #4382c9;
   padding: 12px 25px;
