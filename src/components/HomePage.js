@@ -15,6 +15,11 @@ import left from '../assets/AI_Generated_Image_2024-11-19_469709646017201.png';
  import dropshipping from '../assets/dropshipping.svg';
 import ecommerce from '../assets/e-commerce.svg';
  import amazonmerch from '../assets/amazon-merch.svg';
+ import icon2 from '../assets/icon2.png';
+ import icon3 from '../assets/icon5.png';
+ import icon1 from '../assets/icon1.png';
+ import icon4 from '../assets/icon4.jpg';
+ import icon6 from '../assets/icon6.png';
 const HomePage = () => {
 
   const listings = [
@@ -75,11 +80,11 @@ const HomePage = () => {
             </div>
             <p className="as-seen-on">Como visto em:</p>
             <div className="as-seen-logo">
-              <span>Exame</span>
-              <span>InfoMoney</span>
-              <span>Valor Econômico</span>
-              <span>PEGN</span>
-              <span>StartSe</span>
+            <span><img className='icon' src={icon2} alt="Exame" /></span>
+            <span><img className='icon' src={icon1} alt="Exame" /></span>
+            <span><img className='icon' src={icon6} alt="Exame" /></span>
+            <span><img className='icon' src={icon3} alt="Exame" /></span>
+              
             </div>
           </div>
           <div className="right-column">
@@ -87,6 +92,13 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
+
+
+
+
+
+    
 
 
 
@@ -201,16 +213,19 @@ const HomePage = () => {
    
     <div class="text-content">
       <h2>Como Funciona</h2>
-      <h3>Comprando um Negócio</h3>
+      <h3>Vendendo Seu Negócio</h3>
       <p>
-        Acesse nosso marketplace e descubra negócios online já validados e em operação. 
-        Temos opções que vão desde investimentos passivos até negócios mais complexos, 
-        atendendo a todos os perfis de investidores.
+      Venda seu site ou negócio online de maneira prática e segura. Estamos com você em cada
+etapa, assegurando que apenas compradores qualificados participem do processo. Após se
+tornar assinante, cuidamos da listagem do seu negócio e até mesmo da transferência para o
+novo comprador, para que você não precise se preocupar com burocracia..
       </p>
       <p>
-        Encontrou um negócio ou site interessante? Desbloqueie a listagem agora com nossa 
-        assinatura e tenha acesso a todos os dados essenciais para avaliar sua compra 
-        com segurança: URL, Google Analytics, Demonstração de Lucros e Perdas, e muito mais.
+      Vender conosco é mais seguro porque contamos com parceria de grandes bancos
+custodiantes, e rentável porque é melhor do que vender por conta própria. Como assinante,
+você não precisa investir em softwares caros nem se preocupar com o seu provedor de
+hospedagem. Cuidamos de todos os detalhes por você, proporcionando uma experiência
+tranquila e lucrativa.
       </p>
       <a href="#" class="cta-button">Página de Cadastro</a>
     </div>
