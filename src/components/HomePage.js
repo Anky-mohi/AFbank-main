@@ -113,7 +113,7 @@ const HomePage = () => {
   {/* New Summary Section */}
   <div className="listings-summary">
     <div className="summary-text">
-      <strong>8 New Listings Published</strong> <span>154 Listings Total</span>
+      <button><strong>8 New Listings Published</strong> <span>154 Listings Total</span></button>
     </div>
     <div className="listings-headers">
       <span>Monetization</span>
