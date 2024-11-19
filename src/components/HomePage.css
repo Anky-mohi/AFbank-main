@@ -29,7 +29,7 @@
 }
 
 .title {
-  font-size: 3rem; /* Larger font for modern look */
+  /* Larger font for modern look */
   font-weight: bold;
   margin-bottom: 50px;
   line-height: 1.2;
@@ -49,6 +49,7 @@
   /* margin-top: 20px; */
   margin-bottom: 20px;
   padding-top: 20px;
+  
 }
 
 .btn {
@@ -111,6 +112,7 @@
 
   .button-group {
     flex-direction: column;
+    
   }
 
   .btn {
@@ -129,11 +131,8 @@
 
 .showcase-image {
   width: 160%;
-  margin-left: 170px;
-  /* max-width: 500px; */
-  border-radius: 10px;
-  
-  
+  margin-left: 70px;
+  margin-top: -100px;
 }
 
 .showcase-image:hover {
@@ -158,11 +157,13 @@
 
   .button-group {
     flex-direction: column;
+    margin-left: 20px;
   }
 
   .showcase-image {
     max-width: 80%;
-    margin-right: 170px;
+    margin-right: 70px;
+    margin-top: 40px;
   }
 }
 
@@ -640,11 +641,14 @@
 }
 
 .niche {
-  
   background-color: white;
   color: #356aa8;
-  border: 1px solid #356aa8
+  border: 1px solid #356aa8;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
 }
+
 
 .niche:hover {
   color: #555;

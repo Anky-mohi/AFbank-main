@@ -1,15 +1,12 @@
-import React from 'react'
+import React from 'react';
 import './HomePage.css';
 import macbookImage from '../assets/macbook.png';
 import buyingbusiness from '../assets/buying-business-2.png';
-import { motion } from 'framer-motion';
 import sellers from '../assets/sellers.png';
-import why from '../assets/Why-choose-us.jpg';
 import amazon from '../assets/amazon-associates.svg';
 import startup from '../assets/A-Startups-Guide-to-Ecommerce-Inventory-Management-506x296.jpg';
 import future from '../assets/The-Future-of-E-commerce-Trends-and-Predictions-for-Shopify-Businesses-506x296.jpg';
-
-
+import why from '../assets/Why-choose-us.jpg';
 const HomePage = () => {
 
   const listings = [
@@ -17,66 +14,34 @@ const HomePage = () => {
       monetization: "eCommerce", 
       niche: "Beleza", 
       id: "#80328", 
-      profit: "$65.406,00", 
-      price: "$1.438.910,00", 
+      profit: "R$65.406,00", 
+      price: "R$1.438.910,00", 
       link: "/listing/80328" 
     },
     { 
       monetization: "Amazon FBA", 
       niche: "Arte, Crianças, Hobbies, Ocasiões & Presentes", 
       id: "#80821", 
-      profit: "$25.213,00", 
-      price: "$1.134.540,00", 
+      profit: "R$25.213,00", 
+      price: "R$1.134.540,00", 
       link: "/listing/80821" 
     },
     {
       monetization: "Múltiplos",
       niche: "Boletins Informativos, Publicidade Display, Questionários, Entretenimento, Informação",
       id: "#80590",
-      profit: "$34.592,00",
-      price: "$1.037.760,00",
+      profit: "R$34.592,00",
+      price: "R$1.037.760,00",
       link: "/listing/80590"
     },
     {
       monetization: "Amazon FBA",
       niche: "Suplementos",
       id: "#79631",
-      profit: "$9.612,00",
-      price: "$346.036,00",
+      profit: "R$9.612,00",
+      price: "R$346.036,00",
       link: "/listing/79631"
-    },
-    {
-      monetization: "Amazon KDP",
-      niche: "Notícias & Educação, Informação, Livros",
-      id: "#81053",
-      profit: "$7.314,00",
-      price: "$219.419,00",
-      link: "/listing/81053"
-    },
-    {
-      monetization: "Amazon FBA",
-      niche: "Ocasiões & Presentes",
-      id: "#73349",
-      profit: "$5.570,00",
-      price: "$200.521,00",
-      link: "/listing/73349"
-    },
-    {
-      monetization: "Múltiplos",
-      niche: "Boletins Informativos, Assinaturas, Outros, Mídia Digital, Emprego",
-      id: "#79094",
-      profit: "$2.453,00",
-      price: "$88.308,00",
-      link: "/listing/79094"
-    },
-    {
-      monetization: "eCommerce",
-      niche: "Beleza",
-      id: "#81084",
-      profit: "$2.696,00",
-      price: "$56.595,00",
-      link: "/listing/81084"
-    },
+    }
   ];
 
   const handleSubscribe = (e) => {
@@ -86,24 +51,27 @@ const HomePage = () => {
 
   return (
     <>
+      {/* Home Top Section */}
       <section className="homepage-section">
         <div className="content-container">
           <div className="left-column">
-            <h1 className="title">O #1 Mercado Curado de Negócios Online</h1>
+            <h1 className="title">
+              Quer investir ou abrir um negócio? Compre um que já esteja online, pronto e faturando!
+            </h1>
             <p className="description">
-              Junte-se a milhares de clientes ao redor do mundo que compraram e venderam mais de $510M+ em negócios online.
+              Junte-se ao principal marketplace para comprar e vender negócios digitais: sites, blogs, aplicativos, serviços de assinatura, lojas Shopify, Amazon, Mercado Livre e muito mais.
             </p>
             <div className="button-group">
-              <button className="btn get-started">Comece Grátis</button>
+              <button className="btn get-started">Comece Gratuitamente</button>
               <button className="btn learn-more">Saiba Mais</button>
             </div>
-            <p className="as-seen-on">Visto em</p>
-            <div class="as-seen-logo">
-              <i class="newyork"></i>
-              <i class="inc"></i>
-              <i class="forbes"></i>
-              <i class="huff"></i>
-              <i class="moz"></i>
+            <p className="as-seen-on">Como visto em:</p>
+            <div className="as-seen-logo">
+              <span>Exame</span>
+              <span>InfoMoney</span>
+              <span>Valor Econômico</span>
+              <span>PEGN</span>
+              <span>StartSe</span>
             </div>
           </div>
           <div className="right-column">
@@ -112,43 +80,30 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* Latest Listings Section */}
       <div className="listings-section">
-        <div className="listings-header">
-          <h2>Nossas Últimas Listagens</h2>
-          <p>Toda segunda-feira publicamos novos negócios à venda em nosso mercado.</p>
-          <p><strong>8 Novas Listagens Publicadas | 159 Listagens Totais</strong></p>
-        </div>
-        <br /><br />
-
-        <div className="header-row">
-          <span>Monetização</span>
-          <span>Segmento</span>
-          <span>Listagem</span>
-          <span>Lucro Mensal</span>
-          <span>Preço</span>
-        </div>
-
-        {/* Dynamic Listings */}
+        <h2>Nossas Últimas Listagens</h2>
+        <p>Todas os dias publicamos novos negócios à venda em nosso marketplace.</p>
         <div className="listings-container">
           {listings.map((listing, index) => (
             <div className="listing-row" key={index}>
               <span><h3>{listing.monetization}</h3></span>
-              <button className='niche'><span>{listing.niche}</span></button>
-              <span className='listing'><h4>{listing.id}</h4></span>
+              <span className="niche"><span>{listing.niche}</span></span>
+              <span><h4>{listing.id}</h4></span>
               <span>{listing.profit}</span>
-              <span className='price'>{listing.price}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; <i className="fas fa-chevron-down"></i></span>
+              <span className="price">{listing.price}</span>
             </div>
           ))}
         </div>
-
         <div className="view-all">
-          <a href="/all-listings" className="button">Ver Todas as 159 Listagens</a>
+          <a href="/all-listings" className="button">Ver Todas as Listagens</a>
         </div>
       </div>
 
+      {/* Subscription Section */}
       <div className="subscription-section">
-        <h2>Publicamos Novos Negócios Toda Segunda-Feira</h2>
-        <p>Insira seu e-mail abaixo para ser o primeiro a saber.</p>
+        <h2>Publicamos Novos Negócios Todos os Dias</h2>
+        <p>Insira seu e-mail abaixo para ser o primeiro a ser notificado “In the Know”.</p>
         <form className="subscription-form" onSubmit={handleSubscribe}>
           <input 
             type="email" 
@@ -160,51 +115,47 @@ const HomePage = () => {
         </form>
       </div>
 
+      {/* How It Works - Buying a Business */}
       <section className="how-it-works">
         <div className="how-it-works-content">
-          <div className="image-column">
-            <img src={buyingbusiness}  alt="Como Funciona a Compra" className="how-it-works-image" />
-          </div>
           <div className="text-column">
             <h2>Como Funciona</h2>
             <h3>Comprando um Negócio</h3>
             <p>
-              Visite nosso mercado para encontrar negócios online lucrativos à venda. De investimentos passivos a ativos mais envolvidos, temos de tudo.
+              Acesse nosso marketplace e descubra negócios online já validados e em operação. Temos opções que vão desde investimentos passivos até negócios mais complexos, atendendo a todos os perfis de investidores.
             </p>
             <p>
-              Encontrou um negócio online ou site que gostou? Desbloqueie a listagem para acessar tudo o que você precisa para revisar sua compra potencial: URL, Google Analytics, Demonstração de Lucros & Perdas, etc.
+              Encontrou um negócio ou site interessante? Desbloqueie a listagem agora com nossa assinatura e tenha acesso a todos os dados essenciais para avaliar sua compra com segurança: URL, Google Analytics, Demonstração de Lucros e Perdas, e muito mais.
             </p>
-            <a href="/how-to-buy" className="how-to-buy-button">Como Comprar um Negócio</a>
+            <a href="/signup" className="btn-action">Página de Cadastro</a>
+          </div>
+          <div className="image-column">
+            <img src={buyingbusiness} alt="Comprando um Negócio" />
           </div>
         </div>
       </section>
 
+      {/* How It Works - Selling Your Business */}
       <section className="how-it-works-sell">
         <div className="how-it-works-content">
           <div className="text-column">
-            <h2>Como Funciona</h2>
             <h3>Vendendo Seu Negócio</h3>
             <p>
-              Venda seu site ou negócio online sem complicação. Acompanhamos você no processo, passo a passo, e filtramos compradores não sérios. Até transferimos o negócio para o comprador, para que você não precise.
+              Venda seu site ou negócio online de maneira prática e segura. Estamos com você em cada etapa, assegurando que apenas compradores qualificados participem do processo.
             </p>
             <p>
-              Você ganha mais dinheiro conosco do que se vender por conta própria. Você não precisa comprar software. Não precisa entrar em contato com seu provedor de hospedagem. Nós fazemos tudo por você.
+              Após se tornar assinante, cuidamos da listagem do seu negócio e até mesmo da transferência para o novo comprador, para que você não precise se preocupar com burocracia.
             </p>
-            <a href="/how-to-sell" className="how-to-sell-button">Como Vender um Negócio</a>
+            <a href="/signup" className="btn-action">Página de Cadastro</a>
           </div>
           <div className="image-column">
-            <img src={sellers} alt="Vendendo Seu Negócio" className="how-it-works-image" />
+            <img src={sellers} alt="Vendendo Seu Negócio" />
           </div>
         </div>
       </section>
 
-     
 
-
-
-
-
-
+      
       <section className="popular-monetizations">
   <div className="monetizations-header">
     <h2>Monetizaciones Populares</h2>
@@ -379,11 +330,8 @@ const HomePage = () => {
     </div>
   </div>
 </section>
-
-
-
     </>
   );
-}
+};
 
 export default HomePage;
