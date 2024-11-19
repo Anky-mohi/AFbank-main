@@ -163,13 +163,14 @@
   .showcase-image {
     max-width: 80%;
     margin-right: 70px;
-    margin-top: 40px;
+   margin-top: 0px;
   }
 }
 
 .icon {
   width: 100px;
   height: 100px;
+  margin-top: -30px;
 }
 
 
