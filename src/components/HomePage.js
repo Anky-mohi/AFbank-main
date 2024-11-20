@@ -242,10 +242,10 @@ tranquila e lucrativa.
       
       <section className="popular-monetizations">
   <div className="monetizations-header">
-    <h2>Monetizaciones Populares</h2>
+    <h2>Monetizações populares</h2>
     <p>
-      Explora una selección exclusiva de negocios online establecidos en venta 
-      al seleccionar una categoría que te interese a continuación.
+    Explore uma seleção exclusiva de empresas online estabelecidas para venda 
+    selecionando uma categoria na qual você está interessado abaixo.
     </p>
   </div>
   <div className="monetizations-grid">
@@ -299,10 +299,9 @@ tranquila e lucrativa.
     </div>
     <div class="text-section">
       <h2>Por Que Nos Escolher?</h2>
-      <p class="highlight">Mais de $510M em Negócios Online Vendidos</p>
+      <p class="highlight">Mais de 500 milhões em valuation em negócios online para vender.</p>
       <p class="description">
-        A Empire Flippers é uma empresa da Inc. 5000 e o mercado curado #1 
-        para comprar e vender negócios online.
+      A AF Bank é o primeiro mercado automatizado do Brasil para compra e venda de empresas e ativos online
       </p>
     </div>
   </div>

@@ -11,7 +11,7 @@ function Footer() {
           <p>O #1 Mercado Online Curado de Negócios</p>
         </div>
         <div className="footer-about">
-          <p>AF Bank ajudou pessoas a comprar e vender mais de <strong>$510M+</strong> em negócios online.</p>
+          <p>A AF Bank ajuda milhares de pessoas a comprar e vender empresas no mercado digital.</p>
           <div className="footer-badges">
             <span>Inc-500</span>
             <span>IBBA</span>

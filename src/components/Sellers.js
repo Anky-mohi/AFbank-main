@@ -56,27 +56,27 @@ const Sellers = () => {
               {activePrice === 'below250k' && (
                 <>
                   <h3>Para preços abaixo de $250k</h3>
-                  <div className="percentage-highlight">8%</div>
+                  <div className="percentage-highlight">12%</div>
                   <p>taxa de fechamento quando você vender<hr className='hr' ></hr></p>
-                  <p>Mais $25/mês para listar</p>
+                  <p>Mais 99 reais./mês para listar</p>
                 </>
               )}
               {activePrice === '250kTo1M' && (
                 <>
                   <h3>Para preços entre $250k-$1M</h3>
-                  <div className="percentage-highlight">7%</div>
+                  <div className="percentage-highlight">10%</div>
                   <p>taxa de fechamento quando você vender</p>
                   <hr className='hr' ></hr>
-                  <p>Mais $50/mês para listar</p>
+                  <p>Mais 199 reais/mês para listar</p>
                 </>
               )}
               {activePrice === 'above1M' && (
                 <>
                   <h3>Para preços acima de $1M</h3>
-                  <div className="percentage-highlight">6%</div>
+                  <div className="percentage-highlight">8%</div>
                   <p>taxa de fechamento quando você vender</p>
                   <hr className='hr' ></hr>
-                  <p>Mais $100/mês para listar</p>
+                  <p>Mais 299 reais/mês para listar</p>
                 </>
               )}
             </div>
