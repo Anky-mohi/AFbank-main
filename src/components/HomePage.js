@@ -295,36 +295,36 @@ tranquila e lucrativa.
 <section class="why-choose-us">
   <div class="content-container">
     <div class="image-section">
-      <img src={why} alt="Por Qué Elegirnos Imagen" />
+      <img src={why} alt="Por Que Nos Escolher Imagem" />
     </div>
     <div class="text-section">
-      <h2>¿Por Qué Elegirnos?</h2>
-      <p class="highlight">$510M+ de Negocios Online Vendidos</p>
+      <h2>Por Que Nos Escolher?</h2>
+      <p class="highlight">Mais de $510M em Negócios Online Vendidos</p>
       <p class="description">
-        Empire Flippers es una empresa de Inc. 5000 y el mercado curado #1 
-        para comprar y vender un negocio online.
+        A Empire Flippers é uma empresa da Inc. 5000 e o mercado curado #1 
+        para comprar e vender negócios online.
       </p>
     </div>
   </div>
   <div class="features-row">
     <div class="feature">
-      <h3>Negocios Legítimos</h3>
+      <h3>Negócios Legítimos</h3>
       <p>
-        Rechazamos la mayoría de los negocios antes de que se publiquen, asegurando 
-        que tendrás las mejores opciones para tu próxima adquisición.
+        Rejeitamos a maioria dos negócios antes de serem publicados, garantindo 
+        que você tenha as melhores opções para sua próxima aquisição.
       </p>
     </div>
     <div class="feature">
-      <h3>Datos Reales</h3>
+      <h3>Dados Reais</h3>
       <p>
-        Para encontrar un negocio en internet a la venta, regístrate para una cuenta gratuita 
-        y comienza tu proceso de debida diligencia.
+        Para encontrar um negócio à venda na internet, registre-se para uma conta gratuita 
+        e comece seu processo de diligência.
       </p>
     </div>
     <div class="feature">
-      <h3>Migraciones Hechas Para Ti</h3>
+      <h3>Migrações Feitas para Você</h3>
       <p>
-        Nuestro equipo te ayudará en cada paso del camino para transferir el activo una vez vendido.
+        Nossa equipe ajudará você em cada etapa para transferir o ativo após a venda.
       </p>
     </div>
   </div>
@@ -333,11 +333,11 @@ tranquila e lucrativa.
 <section class="business-sell-section">
   <div class="overlay">
     <div class="container">
-      <h2>¿Tienes un Negocio Online para Vender?</h2>
-      <p>Consulta las herramientas online a continuación para vender o valorar tu negocio</p>
+      <h2>Tem um Negócio Online para Vender?</h2>
+      <p>Confira as ferramentas online abaixo para vender ou avaliar seu negócio</p>
       <div class="button-group">
-        <button class="btn-primary">Vender Mi Negocio Online</button>
-        <button class="btn-secondary">Probar Herramienta de Valoración</button>
+        <button class="btn-primary">Vender Meu Negócio Online</button>
+        <button class="btn-secondary">Testar Ferramenta de Avaliação</button>
       </div>
     </div>
   </div>
@@ -345,59 +345,54 @@ tranquila e lucrativa.
 
 <section class="latest-blog-posts">
   <div class="listings-header">
-    <h2>Últimas Publicaciones del Blog</h2>
-    <p>Mira lo que hay de nuevo en el blog</p>
+    <h2>Últimas Postagens do Blog</h2>
+    <p>Veja o que há de novo no blog</p>
   </div>
 
   <div class="blog-container">
-   
     <div class="blog-post">
       <div class="blog-image">
-        <img src={startup} alt="Blog Post 1" />
+        <img src={startup} alt="Postagem do Blog 1" />
       </div>
-      <br></br>
+      <br/>
       <div class="listings-header">
-        <h3>Cómo Optimizar Tu Empaque para Ahorrar Dinero y Mejorar la Experiencia del Cliente</h3>
+        <h3>Como Otimizar Sua Embalagem para Economizar Dinheiro e Melhorar a Experiência do Cliente</h3>
         <p>
-          El empaque es un componente integral de cualquier negocio de comercio electrónico. 
-          Cuando alguien pide tu producto online, es el paquete el que asegura que se mueva 
-          de manera segura desde tu almacén hasta el cliente. Ese envoltorio externo también 
-          les proporciona […]
+          A embalagem é um componente essencial de qualquer negócio de e-commerce. 
+          Quando alguém pede seu produto online, é a embalagem que garante a entrega 
+          segura do armazém até o cliente. Essa embalagem externa também oferece […]
         </p>
-        <br></br>
+        <br/>
         <div class="blog-meta">
-          <span class="author">Tom Wicky</span>
+          <span class="author">Tony Feitosa</span>
           <span class="category">Amazon FBA, Ecommerce</span>
         </div>
-       
       </div>
     </div>
 
-    
     <div class="blog-post">
       <div class="blog-image">
-        <img src={future} alt="Blog Post 2" />
+        <img src={future} alt="Postagem do Blog 2" />
       </div>
-      <br></br>
+      <br/>
       <div class="listings-header">
-        <h3>Técnicas para Aumentar las Tasas de Conversión en Shopify</h3>
+        <h3>Técnicas para Aumentar as Taxas de Conversão no Shopify</h3>
         <p>
-          El rango promedio de tasas de conversión para sitios web de comercio electrónico es de 1% a 4%. 
-          Esto significa que de cada 100 visitantes, típicamente 1 a 4 personas realizan una compra. 
-          ¿Está tu tasa de conversión de Shopify dentro […]
+          A média de taxa de conversão para sites de e-commerce é de 1% a 4%. 
+          Isso significa que, a cada 100 visitantes, geralmente 1 a 4 pessoas fazem uma compra. 
+          Sua taxa de conversão no Shopify está dentro […].
         </p>
-        <br></br>
+        <br/>
         <div class="blog-meta">
-          <span class="author">Ryan Robinson</span>
+          <span class="author">Tony Feitosa</span>
           <span class="category">Ecommerce</span>
         </div>
-        
       </div>
     </div>
   </div>
 
   <div class="view-all">
-    <a href="#" class="view-all-link">Ver Todas las Publicaciones del Blog</a>
+    <a href="#" class="view-all-link">Ver Todas as Postagens do Blog</a>
   </div>
 </section>
 
@@ -405,15 +400,22 @@ tranquila e lucrativa.
   <div class="container">
     <div class="left-div">
       <p class="phone-number">+1-888 658 8388</p>
-      <p class="description">Permítenos simplificar el proceso para ti, haz clic en el botón a continuación.</p>
-      <button class="btn-primary">Agenda una Llamada Gratis</button>
+      <p class="description">Simplificamos o processo para você. Clique no botão abaixo.</p>
+      <button class="btn-primary">Agendar uma Chamada Gratuita</button>
     </div>
     <div class="right-div">
-      <p class="heading">Nuestros asesores en M&A están listos para ayudarte a dar tu próximo gran paso.</p>
-      <p class="subtext">Consulta con nuestros analistas de negocios líderes en la industria hoy mismo.</p>
+      <p class="heading">Nossos consultores de M&A estão prontos para ajudá-lo a dar o próximo grande passo.</p>
+      <p class="subtext">Consulte nossos analistas líderes do setor hoje mesmo.</p>
     </div>
   </div>
 </section>
+
+
+
+
+
+
+
     </>
   );
 };

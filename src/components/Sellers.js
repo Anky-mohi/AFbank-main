@@ -10,8 +10,8 @@ const Sellers = () => {
     { question: "Eu pago uma taxa se não conseguir vender minha startup?", answer: "Não, você paga uma taxa de sucesso apenas se sua startup for vendida com sucesso." },
     { question: "Quem paga pelo serviço de escrow?", answer: "As taxas de escrow geralmente são compartilhadas entre o comprador e o vendedor." },
     { question: "Como o meu conselheiro especializado me ajuda?", answer: "Seu conselheiro ajuda com precificação, negociação e garante um processo de transação tranquilo." },
-    { question: "Preciso de serviços profissionais (como corretor) ao vender com Acquire.com?", answer: "Não, o serviço Guided by Acquire oferece toda a assistência necessária sem corretores adicionais." },
-    { question: "Como o Guided by Acquire funciona?", answer: "Guided by Acquire oferece assistência personalizada ao longo da sua jornada de venda." },
+    { question: "Preciso de serviços profissionais (como corretor) ao vender com AF Bank.com?", answer: "Não, o serviço Guided by AF Bank oferece toda a assistência necessária sem corretores adicionais." },
+    { question: "Como o Guided by AF Bank funciona?", answer: "Guided by AF Bank oferece assistência personalizada ao longo da sua jornada de venda." },
   ];
 
   const toggleFAQ = (index) => {

@@ -11,7 +11,7 @@ function Footer() {
           <p>O #1 Mercado Online Curado de Negócios</p>
         </div>
         <div className="footer-about">
-          <p>Empire Flippers ajudou pessoas a comprar e vender mais de <strong>$510M+</strong> em negócios online.</p>
+          <p>AF Bank ajudou pessoas a comprar e vender mais de <strong>$510M+</strong> em negócios online.</p>
           <div className="footer-badges">
             <span>Inc-500</span>
             <span>IBBA</span>
@@ -63,7 +63,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-copyright">
-          <p>Copyright © Empire Flippers, LLC 2024</p>
+          <p>Copyright © AF Bank, LLC 2024</p>
           <ul>
             <li><a href="#">Termos de Uso</a></li>
             <li><a href="#">Política de Copyright</a></li>

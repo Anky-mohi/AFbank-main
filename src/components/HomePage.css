@@ -31,8 +31,9 @@
 .title {
   /* Larger font for modern look */
   font-weight: bold;
-  margin-bottom: 50px;
+ 
   line-height: 1.2;
+  margin-top: 30px;
 }
 
 .description {
